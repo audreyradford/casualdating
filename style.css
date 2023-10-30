@@ -1,0 +1,12 @@
+.putar-kanan {
+  -moz-animation: rota-full-right 3s infinite linear;
+  -webkit-animation: rota-full-right 3s infinite linear;
+}
+@-moz-keyframes rota-full-right {
+  0% {-moz-transform: rotate(0deg);}                     
+  100% {-moz-transform: rotate(360deg);}
+}
+@-webkit-keyframes rota-full-right {
+  0% {-webkit-transform: rotate(0deg);}                    
+  100% {-webkit-transform: rotate(360deg);}
+}
